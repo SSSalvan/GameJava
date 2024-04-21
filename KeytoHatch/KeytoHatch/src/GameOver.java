@@ -20,8 +20,8 @@ public class GameOver extends JFrame {
 
         isRetrySelected = true; // start with 'Retry' selected
 
-        File retryFile = new File("..\\resources\\selectRetry.png");
-        File menuFile = new File("..\\resources\\selectMenu.png");
+        File retryFile = new File("KeytoHatch\\resources\\selectRetry.png");
+        File menuFile = new File("KeytoHatch\\resources\\selectMenu.png");
 
         retryIcon = new ImageIcon(retryFile.getPath());
         menuIcon = new ImageIcon(menuFile.getPath());

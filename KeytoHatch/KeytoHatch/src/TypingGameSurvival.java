@@ -35,7 +35,7 @@ public class TypingGameSurvival extends JFrame {
     private ImageIcon backgroundImage;
 
     public TypingGameSurvival() {
-        File bgImageFile = new File("..\\resources\\bgEmpty.png");
+        File bgImageFile = new File("KeytoHatch\\resources\\bgEmpty.png");
         backgroundImage = new ImageIcon(bgImageFile.getPath()); 
 
         setTitle("Typing Game Survival");

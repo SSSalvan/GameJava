@@ -14,11 +14,11 @@ public class GameMenu extends JPanel {
     private boolean isStartSelected;
 
     public GameMenu() {
-        File startFile = new File("..\\resources\\start1.png");
-        File exitFile = new File("..\\resources\\exit1.png");
-        File selectEasyFile = new File("..\\resources\\selecteasy.png");
-        File selectMediumFile = new File("..\\resources\\selectmedium.png");
-        File selectSurvivalFile = new File("..\\resources\\selectsurvival.png");
+        File startFile = new File("KeytoHatch\\resources\\start1.png");
+        File exitFile = new File("KeytoHatch\\resources\\exit1.png");
+        File selectEasyFile = new File("KeytoHatch\\resources\\selecteasy.png");
+        File selectMediumFile = new File("KeytoHatch\\resources\\selectmedium.png");
+        File selectSurvivalFile = new File("KeytoHatch\\resources\\selectsurvival.png");
 
         startIcon = new ImageIcon(startFile.getPath());
         exitIcon = new ImageIcon(exitFile.getPath());

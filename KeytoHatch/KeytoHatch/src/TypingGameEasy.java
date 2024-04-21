@@ -39,7 +39,7 @@ public class TypingGameEasy extends JFrame {
     // Constructor
     public TypingGameEasy() {
         //load background image
-        File backgroundFile = new File("..\\resources\\bg1.png");
+        File backgroundFile = new File("KeytoHatch\\resources\\bg1.png");
         backgroundImage = new ImageIcon(backgroundFile.getPath());
 
         // Set JFrame properties
@@ -250,16 +250,16 @@ public class TypingGameEasy extends JFrame {
     
                 // Check if the player reached certain points and change the image accordingly
                 if (points >= 60) {
-                    File backgroundFile = new File("..\\resources\\bg4.png");
+                    File backgroundFile = new File("KeytoHatch\\resources\\bg4.png");
                     backgroundImage = new ImageIcon(backgroundFile.getPath());
                     repaint();
                     winGame();
                 } else if (points >= 50) {
-                    File backgroundFile = new File("..\\resources\\bg3.png");
+                    File backgroundFile = new File("KeytoHatch\\resources\\bg3.png");
                     backgroundImage = new ImageIcon(backgroundFile.getPath());
                     repaint();
                 } else if (points >= 40) {
-                    File backgroundFile = new File("..\\resources\\bg2.png");
+                    File backgroundFile = new File("KeytoHatch\\resources\\bg2.png");
                     backgroundImage = new ImageIcon(backgroundFile.getPath());
                     repaint();
                 }
@@ -287,7 +287,7 @@ public class TypingGameEasy extends JFrame {
         JOptionPane.showMessageDialog(this, "You Won! Your chick turned into a COCK");
         topPanel.removeAll();
         bottomPanel.removeAll();
-        File backgroundFile = new File("..\\resources\\win.jpg");
+        File backgroundFile = new File("KeytoHatch\\resources\\win.jpg");
         backgroundImage = new ImageIcon(backgroundFile.getPath());
 
         // Add a key listener to detect when the Enter key is pressed
